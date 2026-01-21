@@ -1,0 +1,99 @@
+OWASP
+
+We live in a time where the internet is becoming more dangerous, with more online threats. That’s why groups like OWASP, a non-profit open-source organization, are very important.
+
+OWASP is fully focused on making web applications more secure. It helps developers, engineers, designers, and business owners understand the most common security problems in web apps. They do this by offering free and public resources to help protect against these risks.
+
+✅ Creates free, open-source tools and resources
+OWASP builds tools and writes guides that are free for everyone to use. These help developers find and fix security problems in their software. Example: OWASP Top 10 (a list of the most common security risks).
+
+🌍 Runs local chapters and global events
+OWASP has groups in many countries. These local chapters organize events, workshops, and meetups where people can learn about security and share their knowledge.
+
+🧑‍💻 Organizes meetings, forums, and conferences
+OWASP arranges online forums and conferences where experts and beginners can talk, ask questions, and learn from each other about keeping applications safe.
+
+📚 Encourages learning and community involvement
+OWASP invites anyone to join, contribute, and learn. You don’t have to be an expert. It promotes community participation, so people around the world can work together to improve security.
+
+      OWASP TOP 10
+---
+
+**What is OWASP Top 10?**
+
+The **OWASP Top 10** is a list created by **OWASP** (Open Web Application Security Project) that shows the **top 10 most serious security problems** found in web applications.
+
+---
+
+**Why and How Is It Made?**
+
+* OWASP **updates the list regularly** based on data from **security experts, companies, and developers** around the world.
+* It includes:
+
+  * **Descriptions of each security issue**
+  * **The possible impact** if it's not fixed
+  * **Ways to prevent or fix** the problem
+
+It is trusted by **developers, security teams, and companies** as a **basic guide** to keep web applications safe.
+
+---
+
+**OWASP Top 10 - 2021 Update**
+
+* Released on **September 24, 2021**, during OWASP’s **20th anniversary**.
+* The 2021 version made **big changes** compared to the older list (like 2020).
+
+  * ✅ **3 new categories** were added.
+  * ✅ **4 categories were renamed or expanded**.
+  * ✅ Some categories were **combined** for clarity.
+
+---
+
+ Example Change:
+
+* In earlier versions, **SQL Injection** was one of the top issues.
+* In 2021, **Broken Access Control** became the **#1 most critical issue**, showing a major shift in focus.
+
+---
+
+**Why Is It Important?**
+
+* It helps **developers understand what to avoid** while building web apps.
+* Following the OWASP Top 10 helps to:
+
+  * Improve **security awareness**
+  * Reduce **common coding mistakes**
+  * Build **safer and more reliable** web applications
+
+
+
+### 🔓 **Broken Access Control – Detailed Explanation**
+
+#### 🔸 What is it?
+
+**Broken Access Control** means that an application or system **does not properly check** who is allowed to access certain parts of it. In other words, it **fails to block unauthorized users** from accessing restricted data or features.
+
+#### 🔸 How does it happen?
+
+This vulnerability can occur when the system:
+
+* **Does not have strong access restrictions**, such as missing password checks, role-based permissions, or user validation.
+* **Does not verify user identity properly** before allowing access to sensitive resources.
+
+#### 🔸 Examples from the paragraph:
+
+* **Absence of authorization restrictions**: No rules in place to prevent a normal user from accessing admin features.
+* **Evading access control measures**: Attackers may bypass security checks using tricks (e.g., URL manipulation).
+* **Incorrectly configured access control policies**: Permissions might be set up wrong, letting users access areas they shouldn't.
+* **Granting access to system files or databases**: Users may be able to view or edit internal data or files they shouldn’t be able to.
+
+#### 🔸 What can go wrong?
+
+If broken access control exists, it can lead to:
+
+* **Data breaches** – Unauthorized users accessing private or confidential information.
+* **Identity theft** – Personal data being stolen and used to impersonate someone.
+* **Fraud** – Malicious actions such as unauthorized transactions or changes.
+* **Compliance issues** – Violations of laws or standards like GDPR, which require strong access protection.
+
+
